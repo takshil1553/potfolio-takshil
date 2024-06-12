@@ -125,6 +125,17 @@ span{
     line-height: 1.8;
     max-width: 1000px;
 }
+.home-line .logo{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: 0.3 ease;
+    
+}
+.home-line .logo:hover{
+    text-shadow: 0 0 25px var(--main-color);
+}
 .social-icons a{
     display: inline-flex;
     justify-content: center;
@@ -213,7 +224,11 @@ span{
     }
     41%,
     60%{
-        content: "software Tester";
+        content: "Software Tester";
+    }
+    61%,
+    80%{
+        content: "Devops";
     }
 }
 @keyframes typing{
